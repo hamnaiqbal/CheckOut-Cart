@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+};
+
+h3{
+    
+    font-family: 'Mulish', sans-serif;
+}
+.tit,.pkr,.desc,.pkr,.amount,.qty{
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#Final-price{
+    font-size: large;
+    font-size: 20px;
+    margin-left: 12px;
+}
+
+.inc{
+    background-color: cadetblue;
+    height: 35px;
+    padding: 5px;
+    width: 100px;
+    display: block;
+    border-radius: 10px;
+}
+.dec{
+    background-color: rgb(207, 219, 154);
+    height: 35px;
+    padding: 5px;
+    width: 100px;
+    display: block;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
